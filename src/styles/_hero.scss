@@ -1,0 +1,15 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 100vh;
+    background-image: url(../images/homem-aranha-aranhaverso-hero.jpeg);
+    background-size: cover;
+    margin-top: -85px;
+
+    @media (max-width: 768px) {
+        background-image: url(../images/homem-aranha-aranhaverso-hero-celular.jpg);
+        min-height: 60vh;
+        margin-top: 0;
+    }
+}
